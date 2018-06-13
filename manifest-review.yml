@@ -3,6 +3,7 @@ applications:
 - name: pal-tracker-review
   path: src/PalTracker/bin/Release/netcoreapp3.1/publish/
   routes:
-  - route: pal-tracker-delta.cfapps.io
+  - route: msg-pal-tracker-review.apps.pikes.pal.pivotal.io
+  services:
   env:
     WELCOME_MESSAGE: Hello from the review environment
