@@ -6,7 +6,7 @@ namespace PalTrackerTests
 {
     public static class IntegrationTestServer
     {
-         public static TestServer Start()
+        public static TestServer Start()
         {
             if (string.IsNullOrEmpty(System.Environment.GetEnvironmentVariable("WELCOME_MESSAGE")))
             {
@@ -14,6 +14,6 @@ namespace PalTrackerTests
             }
 
             return new WebApplicationFactory<Program>().Server;
-        }   
+        }
     }
 }

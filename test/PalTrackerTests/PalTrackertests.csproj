@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Paltracker\Paltracker.csproj" />
+    <ProjectReference Include="..\..\src\PalTracker\PalTracker.csproj" />
   </ItemGroup>
 
 </Project>
